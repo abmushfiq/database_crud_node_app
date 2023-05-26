@@ -8,7 +8,7 @@ import { createMysqlItem, deleteMysqlItem, getMysqlItem, updateMysqlItem } from 
 
 
 // Constants
-const PORT = 8000;
+const PORT = 80;
 const HOST = '0.0.0.0';
 
 // App handlers
