@@ -2,6 +2,8 @@
 import * as AWS from "aws-sdk";
 import { Request } from "express";
 
+
+
 const ddbClient = new AWS.DynamoDB.DocumentClient();
 const cognito = new AWS.CognitoIdentityServiceProvider();
 
